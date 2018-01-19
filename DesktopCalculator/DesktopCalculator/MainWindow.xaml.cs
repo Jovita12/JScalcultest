@@ -24,5 +24,10 @@ namespace DesktopCalculator
         {
             InitializeComponent();
         }
+
+        private void Button_Click(object sender, RoutedEventArgs e)
+        {
+            result.content = num1.Text;
+        }
     }
 }
