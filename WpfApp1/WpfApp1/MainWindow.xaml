@@ -27,6 +27,8 @@
         <Button x:Name="num_8" Content="8" HorizontalAlignment="Left" Margin="71,155,0,0" VerticalAlignment="Top" Width="56" IsCancel="True" Height="44" Click="num_3_Click"/>
         <Button x:Name="num_2" Content="2" HorizontalAlignment="Left" Margin="71,57,0,0" VerticalAlignment="Top" Width="56" IsCancel="True" Height="44" Click="num_3_Click" RenderTransformOrigin="-0.566,0.538"/>
         <Button x:Name="num_1" Content="1" HorizontalAlignment="Left" Margin="10,57,0,0" VerticalAlignment="Top" Width="56" IsCancel="True" Height="44" Click="num_3_Click" RenderTransformOrigin="-0.566,0.538"/>
+        <Button x:Name="plussbutton" Content="+" HorizontalAlignment="Left" Margin="282,101,0,0" VerticalAlignment="Top" Width="30" Height="25" Click="plussbutton_Click"/>
+        <Button x:Name="minusbutton" Content="-" HorizontalAlignment="Left" Margin="282,135,0,0" VerticalAlignment="Top" Width="30" Height="32"/>
 
     </Grid>
 </Window>
