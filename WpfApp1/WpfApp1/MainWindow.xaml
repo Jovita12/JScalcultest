@@ -7,7 +7,7 @@
         mc:Ignorable="d"
         Title="MainWindow" Height="350" Width="525">
     <Grid>
-        <TextBox x:Name="resultBox" HorizontalAlignment="Left" Height="23" Margin="10,10,0,0" TextWrapping="Wrap" Text="TextBox" VerticalAlignment="Top" Width="465" IsEnabled="False" TextChanged="resultBox_TextChanged"/>
+        <TextBox x:Name="resultBox" HorizontalAlignment="Left" Height="23" Margin="10,10,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="465" IsEnabled="False" TextChanged="resultBox_TextChanged"/>
         <Button x:Name="btn" Content="=" HorizontalAlignment="Left" Margin="199,140,0,0" VerticalAlignment="Top" Width="40" RenderTransformOrigin="4.104,1.789" Height="28">
             <Button.RenderTransform>
                 <TransformGroup>
@@ -25,6 +25,8 @@
         <Button x:Name="num_7" Content="7" HorizontalAlignment="Left" Margin="10,155,0,0" VerticalAlignment="Top" Width="56" IsCancel="True" Height="44" RenderTransformOrigin="2.424,2.599" Click="num_3_Click"/>
         <Button x:Name="num_9" Content="9" HorizontalAlignment="Left" Margin="132,155,0,0" VerticalAlignment="Top" Width="56" IsCancel="True" Height="44" Click="num_3_Click"/>
         <Button x:Name="num_8" Content="8" HorizontalAlignment="Left" Margin="71,155,0,0" VerticalAlignment="Top" Width="56" IsCancel="True" Height="44" Click="num_3_Click"/>
+        <Button x:Name="num_2" Content="2" HorizontalAlignment="Left" Margin="71,57,0,0" VerticalAlignment="Top" Width="56" IsCancel="True" Height="44" Click="num_3_Click" RenderTransformOrigin="-0.566,0.538"/>
+        <Button x:Name="num_1" Content="1" HorizontalAlignment="Left" Margin="10,57,0,0" VerticalAlignment="Top" Width="56" IsCancel="True" Height="44" Click="num_3_Click" RenderTransformOrigin="-0.566,0.538"/>
 
     </Grid>
 </Window>
